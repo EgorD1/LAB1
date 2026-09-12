@@ -1,0 +1,5 @@
+n = int(input())
+step1 = n ** 10
+step2 = int(str(step1) * 4)
+result = step2 ** (1 / 10)
+print(result)
